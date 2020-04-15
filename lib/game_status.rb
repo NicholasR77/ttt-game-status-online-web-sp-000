@@ -46,7 +46,7 @@ end
 
 def full?(board)
   board.all? do |position|
-     !(position.nil? || position[index] == " ")
+     !(position.nil? || position == " ")
   end
 end
 
