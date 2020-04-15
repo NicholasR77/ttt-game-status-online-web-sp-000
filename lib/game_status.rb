@@ -1,5 +1,6 @@
 #Test variables
-test_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+test_board_1 = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
+test_board_2 = ["X", "X", "X", "O", "O", " ", " ", " ", " "]
 
 # Helper Method
 def position_taken?(board, index)
