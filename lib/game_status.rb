@@ -24,8 +24,13 @@ WIN_COMBINATIONS = [
 
 # Define the won method
 def won?(board)
+  # Entering a board - EX. [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
+
   WIN_COMBINATIONS.each do |win|
-    puts win
+    # Comparing the board against the wins?
+    win.each do |val|
+      puts val
+    end
   end
 end
 
