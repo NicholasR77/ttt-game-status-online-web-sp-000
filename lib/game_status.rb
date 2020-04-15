@@ -79,13 +79,15 @@ def winner(board)
   elsif (won?(board) == "O")
     puts "O is the winner"
   else
-    puts "No winner quite yet"     
+    puts "No winner quite yet"
 end
 
 puts won?(test_board_1)
 puts draw?(test_board_1)
 puts over?(test_board_1)
+puts winner(test_board_1)
 
 puts won?(test_board_2)
 puts draw?(test_board_2)
 puts over?(test_board_2)
+puts winner(test_board_2)
