@@ -35,8 +35,9 @@ def won?(board)
 
     if position_1 == "X" && position_2 == "X" && position_3 == "X"
       puts win_combo
+      return "X"
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
-      puts win_combo
+      return "O"
     end
   }
    false
@@ -69,6 +70,16 @@ def over?(board)
   else
      false
   end
+end
+
+# Defines a winner method
+def winner(board)
+  if (won?(board) == "X")
+    puts "X is the winner"
+  elsif (won?(board) == "O")
+    puts "O is the winner"
+  else
+    puts "No winner quite yet"     
 end
 
 puts won?(test_board_1)
