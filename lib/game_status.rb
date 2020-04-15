@@ -81,9 +81,9 @@ def winner(board)
 
   if (final_winner == "X")
     return "X"
-  elsif (winner == "O")
+  elsif (final_winner == "O")
     return "O"
-  elsif (winner = "")
+  elsif (final_winner = "")
     puts "No winner quite yet"
   end
 end
