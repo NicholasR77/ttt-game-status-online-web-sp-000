@@ -43,11 +43,13 @@ def won?(board)
 end
 
 # Define the full method
-
 def full?(board)
   board.all? do |position|
      !(position.nil? || position == " ")
   end
 end
 
-puts full?(test_board)
+# Defines the draw method
+def draw?(board)
+
+end
