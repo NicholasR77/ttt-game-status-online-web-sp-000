@@ -4,7 +4,7 @@ test_board  = [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
 
 # Helper Method
 def position_taken?(board, index)
-  !(board[index].nil? || board[index] == " ")
+  return !(board[index].nil? || board[index] == " ")
 end
 
 # Define your WIN_COMBINATIONS constant
