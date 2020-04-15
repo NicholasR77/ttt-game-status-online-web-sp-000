@@ -42,4 +42,10 @@ def won?(board)
   return false
 end
 
- won?(test_board)
+# Define the full method
+
+def full?(board)
+  board.all? do |position|
+    position_taken?(board, position)
+  end
+end
