@@ -77,11 +77,11 @@ end
 
 # Defines a winner method
 def winner(board)
-  if (won?(board) == "X")
+  if (winner == "X")
     return "X"
-  elsif (won?(board) == "O")
+  elsif (winner == "O")
     return "O"
-  else
+  elsif (winner = "")
     puts "No winner quite yet"
   end
 end
