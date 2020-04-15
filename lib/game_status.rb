@@ -39,7 +39,7 @@ def won?(board)
       puts win_combo
     end
   }
-  return false
+   false
 end
 
 # Define the full method
