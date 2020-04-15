@@ -1,4 +1,5 @@
 #Test variables
+test_board = ["X", "O", "X", "O", "X", "X", "O", "X", "O"]
 
 # Helper Method
 def position_taken?(board, index)
