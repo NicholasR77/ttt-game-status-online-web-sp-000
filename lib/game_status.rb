@@ -76,7 +76,7 @@ def over?(board)
 end
 
 # Defines a winner method
-def winner(board)
+def winner
   if (winner == "X")
     return "X"
   elsif (winner == "O")
