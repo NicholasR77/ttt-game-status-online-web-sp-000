@@ -70,4 +70,4 @@ def over?(board)
   end
 end
 
-won?(test_board)
+puts won?(test_board)
