@@ -80,6 +80,7 @@ def winner(board)
     puts "O is the winner"
   else
     puts "No winner quite yet"
+  end
 end
 
 puts won?(test_board_1)
