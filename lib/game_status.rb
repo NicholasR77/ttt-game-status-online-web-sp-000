@@ -49,3 +49,5 @@ def full?(board)
     puts position_taken?(board, position)
   end
 end
+
+full?(test_board)
