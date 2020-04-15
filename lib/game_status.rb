@@ -71,3 +71,5 @@ def over?(board)
 end
 
 puts won?(test_board)
+puts draw?(test_board)
+puts over?(test_board)
