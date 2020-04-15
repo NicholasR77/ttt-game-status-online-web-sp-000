@@ -29,6 +29,7 @@ def won?(board)
       board.each do |board_position|
         if (board_positon == "X")
           puts "yay"
+        end
       end
     end
   end
