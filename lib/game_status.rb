@@ -1,7 +1,5 @@
 #Test variables
 
-test_board  = ["", "", "", "", "", "", "X", "X", "X"]
-
 # Helper Method
 def position_taken?(board, index)
  !(board[index].nil? || board[index] == " ")
@@ -60,4 +58,12 @@ def draw?(board)
   end
 end
 
-draw?(test_board)
+# Defines the game over method
+def over?(board)
+  if (won?(board) == true)
+    return true
+  elsif (draw(board) == true)
+    return true
+  else 
+    return false  
+end
