@@ -27,8 +27,12 @@ def won?(board)
   # Entering a board - EX. [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
 
   board.each do |index|
-    if (position_taken?(board, index) == true)
-      puts "Test"
+    if (index == "X")
+      puts index
+    elsif (index == "O")
+      puts index
+    else
+      puts ""
     end
   end
 end
