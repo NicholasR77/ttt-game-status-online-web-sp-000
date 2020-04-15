@@ -22,7 +22,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-winner = ""
+total_winner = ""
 
 # Define the won method
 def won?(board)
@@ -78,8 +78,8 @@ end
 # Defines a winner method
 def winner(board)
   won?(board)
-  
-  if (winner == "X")
+
+  if (final_winner == "X")
     return "X"
   elsif (winner == "O")
     return "O"
