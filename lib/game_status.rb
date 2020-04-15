@@ -51,5 +51,11 @@ end
 
 # Defines the draw method
 def draw?(board)
-
+  if (won?board == true)
+    return false
+  elsif (won?(board) == false && full?(board) == false)
+      return false
+  elsif (won?(board) == false && full?(board) == true)
+      return true    
+  end  
 end
