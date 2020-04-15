@@ -62,7 +62,7 @@ end
 
 # Defines the game over method
 def over?(board)
-  if (won?(board) == true)
+  if (won?(board) != false)
      true
   elsif (draw?(board) == true)
      true
