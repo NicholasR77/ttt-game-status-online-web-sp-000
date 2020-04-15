@@ -59,3 +59,5 @@ def draw?(board)
       return true
   end
 end
+
+draw?(test_board)
