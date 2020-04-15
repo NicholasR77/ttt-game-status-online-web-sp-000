@@ -24,10 +24,9 @@ WIN_COMBINATIONS = [
 
 # Define the won method
 def won?(board)
-  #iterate over the board to see if the current board status matches WIN_COMBINATIONS
-  WIN_COMBINATIONS.each
-  #if we win, return the winning combinations
-  #if we lose, return false
+  WIN_COMBINATIONS.each do |win|
+    puts |win|
+  end
 end
 
  won?(test_board)
