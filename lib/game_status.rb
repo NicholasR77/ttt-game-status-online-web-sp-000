@@ -76,9 +76,9 @@ end
 # Defines a winner method
 def winner(board)
   if (won?(board) == "X")
-    puts "X is the winner"
+    return "X"
   elsif (won?(board) == "O")
-    puts "O is the winner"
+    return "O"
   else
     puts "No winner quite yet"
   end
