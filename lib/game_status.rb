@@ -27,9 +27,7 @@ def won?(board)
   WIN_COMBINATIONS.each do |win|
     win.each do |win_position|
       board.each do |board_position|
-        if (board_position == "X")
-          puts "yay"
-        end
+        puts "yay"
       end
     end
   end
