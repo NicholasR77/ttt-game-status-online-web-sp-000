@@ -22,6 +22,8 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
+winner = " "
+
 # Define the won method
 def won?(board)
   WIN_COMBINATIONS.each {|win_combo|
