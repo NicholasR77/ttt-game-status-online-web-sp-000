@@ -27,6 +27,8 @@ final_winner = ""
 # Define the won method
 def won?(board)
   WIN_COMBINATIONS.each {|win_combo|
+    final_winner = ""
+    
     index_0 = win_combo[0]
     index_1 = win_combo[1]
     index_2 = win_combo[2]
