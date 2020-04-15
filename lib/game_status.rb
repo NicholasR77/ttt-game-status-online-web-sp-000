@@ -29,6 +29,7 @@ def won?(board)
   board.each do |index|
     if (index == "X" || index == "O")
       puts "test"
+    end
   end
 end
 
