@@ -25,7 +25,9 @@ WIN_COMBINATIONS = [
 # Define the won method
 def won?(board)
   #iterate over the board to see if the current board status matches WIN_COMBINATIONS
-  board.select{|i| i == "X" || i = "O"}
+  WIN_COMBINATIONS.each
+  #if we win, return the winning combinations
+  #if we lose, return false
 end
 
-puts won?(test_board).class
+ won?(test_board)
