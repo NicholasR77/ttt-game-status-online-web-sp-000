@@ -71,6 +71,10 @@ def over?(board)
   end
 end
 
-puts won?(test_board)
-puts draw?(test_board)
-puts over?(test_board)
+puts won?(test_board_1)
+puts draw?(test_board_1)
+puts over?(test_board_1)
+
+puts won?(test_board_2)
+puts draw?(test_board_2)
+puts over?(test_board_2)
