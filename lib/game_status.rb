@@ -68,3 +68,5 @@ def over?(board)
     return false
   end
 end
+
+won?(test_board)
