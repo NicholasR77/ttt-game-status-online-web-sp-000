@@ -25,8 +25,11 @@ WIN_COMBINATIONS = [
 # Define the won method
 def won?(board)
   WIN_COMBINATIONS.each do |win|
-    win.each do |index|
-      puts "yay"
+    win.each do |win_position|
+      board.each do |board_position|
+        if (board_positon == "X")
+          puts "yay"
+      end
     end
   end
 end
