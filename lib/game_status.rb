@@ -32,7 +32,7 @@ def won?(board)
     elsif (index == "O")
       puts index
     else
-      puts ""
+      puts no
     end
   end
 end
