@@ -76,15 +76,17 @@ def over?(board)
 end
 
 # Defines a winner method
-def winner(board)
-  won?(board)
-
-  if (final_winner == "X")
-    return "X"
-  elsif (final_winner == "O")
-    return "O"
-  elsif (final_winner == "")
-    puts "No winner quite yet"
+def winner (board)
+  index = []
+  index = won?(board)
+  if index == false
+    return nil
+  else
+    if board[index[0]] == "X"
+      return "X"
+    else
+      return "O"
+    end
   end
 end
 
