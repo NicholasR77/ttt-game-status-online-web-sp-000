@@ -60,4 +60,4 @@ def draw?(board)
   end
 end
 
-puts draw?(test_board)
+draw?(test_board)
