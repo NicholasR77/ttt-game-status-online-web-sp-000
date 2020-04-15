@@ -22,7 +22,7 @@ WIN_COMBINATIONS = [
   [2,4,6]
 ]
 
-total_winner = ""
+final_winner = ""
 
 # Define the won method
 def won?(board)
