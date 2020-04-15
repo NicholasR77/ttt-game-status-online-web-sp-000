@@ -26,11 +26,9 @@ WIN_COMBINATIONS = [
 def won?(board)
   # Entering a board - EX. [" ", " ", " ", "O", "O", " ", "X", "X", "X"]
 
-  WIN_COMBINATIONS.each do |win|
-    # Comparing the board against the wins?
-    win.each do |val|
-      puts val
-    end
+  board.each do |index|
+    if (index == "X" || index == "O")
+      puts "test"
   end
 end
 
