@@ -25,7 +25,7 @@ WIN_COMBINATIONS = [
 # Define the won method
 def won?(board)
   WIN_COMBINATIONS.each do |win|
-    puts win
+    puts [win]
   end
 end
 
