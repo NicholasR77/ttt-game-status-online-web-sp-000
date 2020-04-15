@@ -37,6 +37,7 @@ def won?(board)
       puts win_combo
       return "X"
     elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
+      puts win_combo
       return "O"
     end
   }
