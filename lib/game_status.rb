@@ -52,22 +52,22 @@ end
 # Defines the draw method
 def draw?(board)
   if (won?(board) == true)
-    return false
+     false
   elsif (won?(board) == false && full?(board) == false)
-    return false
+     false
   elsif (won?(board) == false && full?(board) == true)
-    return true
+     true
   end
 end
 
 # Defines the game over method
 def over?(board)
   if (won?(board) == true)
-    return true
+     true
   elsif (draw?(board) == true)
-    return true
+     true
   else
-    return false
+     false
   end
 end
 
